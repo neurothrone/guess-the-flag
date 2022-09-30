@@ -52,10 +52,8 @@
 		2F9467B128E6A6B40044AD08 /* GuessTheFlag */ = {
 			isa = PBXGroup;
 			children = (
-				2F9467B228E6A6B40044AD08 /* GuessTheFlagApp.swift */,
-				2F9467B428E6A6B40044AD08 /* ContentView.swift */,
-				2F9467B628E6A6B40044AD08 /* Assets.xcassets */,
-				2F9467B828E6A6B40044AD08 /* GuessTheFlag.entitlements */,
+				2F9467C128E6A6CB0044AD08 /* App */,
+				2F9467C228E6A6DD0044AD08 /* UI */,
 				2F9467B928E6A6B40044AD08 /* Preview Content */,
 			);
 			path = GuessTheFlag;
@@ -67,6 +65,24 @@
 				2F9467BA28E6A6B40044AD08 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F9467C128E6A6CB0044AD08 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				2F9467B228E6A6B40044AD08 /* GuessTheFlagApp.swift */,
+				2F9467B628E6A6B40044AD08 /* Assets.xcassets */,
+				2F9467B828E6A6B40044AD08 /* GuessTheFlag.entitlements */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		2F9467C228E6A6DD0044AD08 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				2F9467B428E6A6B40044AD08 /* ContentView.swift */,
+			);
+			path = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +277,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GuessTheFlag/GuessTheFlag.entitlements;
+				CODE_SIGN_ENTITLEMENTS = GuessTheFlag/App/GuessTheFlag.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
@@ -299,7 +315,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = GuessTheFlag/GuessTheFlag.entitlements;
+				CODE_SIGN_ENTITLEMENTS = GuessTheFlag/App/GuessTheFlag.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"GuessTheFlag/Preview Content\"";
