@@ -11,6 +11,7 @@
 		2F9467B528E6A6B40044AD08 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9467B428E6A6B40044AD08 /* ContentView.swift */; };
 		2F9467B728E6A6B40044AD08 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9467B628E6A6B40044AD08 /* Assets.xcassets */; };
 		2F9467BB28E6A6B40044AD08 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F9467BA28E6A6B40044AD08 /* Preview Assets.xcassets */; };
+		2F9467DE28E7DF550044AD08 /* FlagImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9467DD28E7DF550044AD08 /* FlagImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		2F9467B628E6A6B40044AD08 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F9467B828E6A6B40044AD08 /* GuessTheFlag.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = GuessTheFlag.entitlements; sourceTree = "<group>"; };
 		2F9467BA28E6A6B40044AD08 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F9467DD28E7DF550044AD08 /* FlagImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlagImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +83,7 @@
 			isa = PBXGroup;
 			children = (
 				2F9467B428E6A6B40044AD08 /* ContentView.swift */,
+				2F9467DD28E7DF550044AD08 /* FlagImageView.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -157,6 +160,7 @@
 			files = (
 				2F9467B528E6A6B40044AD08 /* ContentView.swift in Sources */,
 				2F9467B328E6A6B40044AD08 /* GuessTheFlagApp.swift in Sources */,
+				2F9467DE28E7DF550044AD08 /* FlagImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

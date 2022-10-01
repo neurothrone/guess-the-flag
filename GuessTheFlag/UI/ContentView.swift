@@ -70,7 +70,7 @@ struct ContentView: View {
             Button {
               onFlagTappedWith(number)
             } label: {
-              FlagImage(image: countries[number])
+              FlagImageView(image: countries[number])
             }
           }
         }
@@ -135,16 +135,5 @@ extension ContentView {
 struct ContentView_Previews: PreviewProvider {
   static var previews: some View {
     ContentView()
-  }
-}
-
-struct FlagImage: View {
-  let image: String
-  
-  var body: some View {
-    Image(image)
-      .renderingMode(.original)
-      .clipShape(Capsule())
-      .shadow(radius: 5)
   }
 }
